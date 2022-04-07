@@ -1,0 +1,73 @@
+.item-lista {
+  margin-bottom: 10px;
+  list-style: circle;
+}
+
+.item-lista-title {
+  cursor: pointer;
+}
+
+.button-editar {
+  margin-left: 10px;
+  background-color: #2e8de1;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-editar:hover {
+  background-color: #073e6d;
+}
+
+.button-excluir {
+  margin-left: 10px;
+  background-color: #f44336;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-excluir:hover {
+  background-color: #e81809;
+}
+
+.form-control {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.button-salvar {
+  background-color: #05574f;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 6px;
+}
+
+.button-salvar:hover {
+  background-color: #02423b;
+}
+
+table {
+  border-style: dotted;
+  border-radius: 4px;
+}
+
+th, td {
+  padding: 4px 8px;
+  border: 0.5px solid #BEBEBE
+}
